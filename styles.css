@@ -1,28 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 
 body {
 
-  background-image: url(file:///C:/Users/18105/Desktop/Web%20Development/HTML%20-%20Order%20Summary/Images/pattern-background-desktop.svg);
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-color:  hsl(225, 100%, 94%);
+  min-height: 100vh;
 }
 
-.First {
-  background-color: white;
-  width: 450px;
-  height: 900px;
-  margin: auto;
 
-
+.payment {
+  font-family: inherit;
 }
 
-.Second {
-  background-color: hsl(225, 100%, 98%);
-  width: 450px;
-  height: 200px;
-  margin: auto;
-}
-
-.Third {
-  background-color: white;
-  width: 450px;
-  height: 200px;
+.cancel {
+  font-family: inherit;
 }
