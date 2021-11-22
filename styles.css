@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 
 
 body {
@@ -15,9 +15,15 @@ body {
 
 
 .payment {
-  font-family: inherit;
+    font-family: "Red Hat Display", sans-serif;
 }
 
 .cancel {
-  font-family: inherit;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.main-container {
+  background-color: white;
+  width: 450px;
+  padding-bottom: 50px;
 }
