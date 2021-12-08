@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #E0E8FF;
-  background-image: url(images/pattern-background-desktop.svg);
+  background-image: url(https://github.com/kgalea13/Order-Summary/blob/main/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 100vh;
@@ -125,7 +125,7 @@ body {
 
 @media screen and (max-width: 425px) {
   body {
-    background-image: url(pattern-background-mobile.svg);
+    background-image: url(https://github.com/kgalea13/Order-Summary/blob/main/pattern-background-mobile.svg);
     background-repeat: no-repeat;
   }
 
