@@ -1,11 +1,8 @@
-
-
-
 body {
   font-family: "Red Hat Display", sans-serif;
   margin: 0;
   padding: 0;
-  background-color:  #E0E8FF;
+  background-color: #E0E8FF;
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -15,84 +12,134 @@ body {
 .annual-plan-div {
   display: inline-block;
   position: relative;
-  left: 40px;
+  left: 2.5rem;
 
 }
 
 .annual-plan {
+  font-weight: 900;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
 }
 
 .button {
   background-color: #1A1178;
-  border-radius: 7px;
+  border-radius: 0.43rem;
   border: none;
+  box-shadow: 0 8px 1rem 0 rgba(0,0,0,0.2), 0 0.375rem 1.25rem 0 rgba(0,0,0,0.19);
   color: white;
   display: block;
   font-family: "Red Hat Display", sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 900;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 3.125rem;
+  margin-bottom: 1.873rem;
   margin: auto;
-  padding-top: 10px;
-  padding-right: 90px;
-  padding-left: 90px;
-  padding-bottom: 10px;
-  }
+  width: 75%;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  transition-duration: 0.6s;
+}
 
-  .button:hover {
-    background-color: #7280A7;
-  }
+.button:hover {
+  cursor: pointer;
+  background-color: #7280A7;
 
+}
 
 .cancel {
+  color: #7280A7;
   display: block;
   font-family: "Red Hat Display", sans-serif;
   font-size: 16;
   font-weight: 900;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 1.875rem;
+  text-decoration: none;
+  transition-duration: 0.10s;
 }
 
 .cancel:hover {
-  background-color: 1F2F56;
+  color: #1F2F56;
 }
 
+
 .change {
+  color: #3829E0;
   display: inline-block;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16;
+  font-weight: 900;
   position: relative;
-  left: 200px;
+  left: 9.375rem;
+  bottom: 0.625rem;
+  text-decoration: underline;
+  transition-duration: 0.10s;
+}
+
+.change:hover {
+  color: #1F2F56;
+  text-decoration: none;
 }
 
 .heading {
   text-align: center;
+  font-weight: 900;
 }
 
 .main-container {
   background-color: white;
-  width: 450px;
-  padding-bottom: 50px;
-  margin: 25px auto 25px auto;
-  border-radius: 15px;
+  width: 28.125rem;
+  padding-bottom: 3.125rem;
+  margin: 1.5625rem auto 1.5625rem auto;
+  border-radius: 0.9375rem;
   overflow: hidden;
 }
 
 .music-note {
   position: relative;
-  left: 20px;
-
+  left: 1.875rem;
+  top: 0.5rem;
 }
 
 .payment {
-  padding-top: 40px;
-}
+  padding-top: 2.5rem;
 
+}
 
 .plan-box-right {
   background-color: #F5F7FF;
+}
+
+.price {
+  font-weight: 600;
+  color: #7280A7;
+  margin-top: 0.3125rem;
+}
+.subtitle {
+  text-align: center;
+  color: #7280A7;
 
 }
 
-.subtitle {
-  text-align: center;
+@media screen and (max-width: 425px) {
+  body {
+    background-image: url(pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+  }
+
+.change {
+  left: 5rem;
+}
+.main-container {
+  max-width: 375px;
+}
+
+.plan-box-right {
+  background-color: #F5F7FF;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 }
